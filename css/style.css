@@ -1,0 +1,202 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    color:  #757575;
+    line-height:normal;
+    
+
+}
+
+header{
+    background-color: #FFFFFF;
+    font-size: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline;
+    
+
+}
+
+
+
+.mail {
+text-decoration: none;
+color: #757575;
+list-style-type: none;
+
+
+}
+
+
+.phone {
+text-decoration: none;
+color: #757575;
+list-style-type: none;
+
+
+}
+
+.mail:hover{
+    color:#2196F3
+}
+
+.phone:hover {
+    text-decoration: none;
+    color:#2196F3
+    }
+    
+.navigation {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    font-style: bold;
+
+}
+
+.navigation > logofirst {
+    color:royalblue;
+    text-decoration: none;
+}
+    
+.navigation > ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+   
+
+}
+.navigation > ul > li > a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #000000;
+
+}
+.navigation > ul > li > a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #2196F3;
+    
+}
+
+ .navigation-menu > ul > li > a:hover { 
+     color: #2196F3;
+     text-decoration: underline;
+ }
+
+ .special {
+    display: flex;
+    text-transform: uppercase;
+    height: 400px;
+    font-weight: 900;
+    font-size: 25px;
+    background-color: #2F303A;
+    color: #FFFFFF;
+    text-align: center;
+    flex-wrap: wrap;
+    line-height: 2,7 ;
+    letter-spacing: 6%;
+
+}
+
+.special button {
+    font-size 16px;
+    color: #2196F3;
+    text-align: center;
+
+
+}
+
+.hero > ul > li > h3{
+    font-size: 14px;
+    color: black;
+
+}
+.hero > ul > li > p{
+    font-size: 14px;
+
+
+
+}
+
+.about > h2 {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    }
+
+
+.team {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+
+
+}
+.team > ul > li > h3 {
+    font-size: 16px;
+    color: #212121
+    text-align: center;
+    
+}
+
+.team > ul > li > p {
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
+}
+
+.footer > div > a{
+    font-family: Raleway;
+    font-size: 26px;
+    
+ }
+ .footer > div > address{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+
+
+}
+
+
+
+ .section > ul > li > button {
+    font-family: inherit;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+
+ }
+
+
+
+
+.section > ul > li > button:hover{
+    background-color: #2196F3;
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+
+
+
+    

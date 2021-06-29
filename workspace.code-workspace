@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "CV",
+			"path": "../CV"
+		},
+		{
+			"name": "goit-markup-hw-02",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "goit-markup-hw-02"
+	}
+}
