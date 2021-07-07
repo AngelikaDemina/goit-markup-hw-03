@@ -57,9 +57,16 @@ font-weight: bold;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0,03em;
+margin-left: 215px;
+margin-right: 93px;
 }
+
 .navigation > ul > li .current{
     color: #2196F3;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 93px;
+    margin-right: 50px;
 
 }
 .navigation {
@@ -68,12 +75,12 @@ letter-spacing: 0,03em;
     text-decoration: none;
     cursor: pointer;
     display: inline-block;
-    
 
 }
 
 .navigation > ul {
     list-style-type: none ;
+    
 }
 .navigation > ul > li > a {
     font-weight: 500;
@@ -82,6 +89,10 @@ letter-spacing: 0,03em;
     font-size: 14px;
     color: #000000;
     display: inline-block;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 50px;
+    margin-right: 50px;
     
 
 }
@@ -120,6 +131,7 @@ letter-spacing: 0,03em;
     letter-spacing: 6%;
     line-height: 60px;
     text-transform: uppercase; 
+    
 
 }
 .special > button {
