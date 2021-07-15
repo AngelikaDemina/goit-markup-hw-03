@@ -6,8 +6,17 @@ body{
     
 
 }
+.header .container{
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
 
 
+}
 
 header{
     background-color: #FFFFFF;
@@ -57,31 +66,45 @@ font-weight: bold;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0,03em;
-margin-left: 215px;
 margin-right: 93px;
 }
 
 .navigation > ul > li .current{
     color: #2196F3;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 93px;
-    margin-right: 50px;
-
+  
 }
 .navigation {
     background-color: #FFFFFF;
     font-size: 15px;
     text-decoration: none;
     cursor: pointer;
-    display: inline-block;
+    display: flex;
+    align-items: center;
 
+}
+.ul{
+margin: 0;
+padding: 0;
+
+
+}
+
+ .contactslist {
+display: flex;
+list-style: none;
+margin: auto;
+
+}
+.classone:not(:last-child){
+margin-right: 50px;
 }
 
 .navigation > ul {
     list-style-type: none ;
+    display: flex;
     
 }
+
 .navigation > ul > li > a {
     font-weight: 500;
     text-decoration: none;
@@ -94,6 +117,7 @@ margin-right: 93px;
     margin-left: 50px;
     margin-right: 50px;
     
+
 
 }
 .navigation > ul > li > a:hover {
@@ -114,23 +138,29 @@ margin-right: 93px;
  }
 
 
+
  .special {
     
-    height: 400px;
+    
     background-color: #2F303A;
     color: #FFFFFF;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 200px 0px;
 
 }
 
-.special > h1{
+h1{
     font-size: 44px;
     font-weight: 900;
     letter-spacing: 6%;
     line-height: 60px;
     text-transform: uppercase; 
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 696px;
+    margin: 0 30 px;
     
 
 }
@@ -139,24 +169,43 @@ margin-right: 93px;
     background-color: #2196F3;
     color:#FFFFFF; 
     text-align: center;
+    padding: 10px 32px;
+
 
 
 }
+.hero{
+    padding: 94px 0;
 
-.hero > ul {
+
+}
+.hero li{
+    width: 270px;
+ }
+
+ .hero li:not(:last-child){
+    margin-right: 30px;
+    }
+.hero  ul {
     text-decoration: none;
     list-style-type: none;
-    
+    margin: 0 ;
+    padding-left: 0;
+    display: flex;
 
-}
-.hero > ul > li > h3{
+    }
+
+.hero  h3{
     font-size: 14px;
     color: black;
-    text-transform: uppercase; ß
+    text-transform: uppercase; 
+    margin-bottom: 10px;
+    margin-top: 0;
 
 }
-.hero > ul > li > p{
+.hero ul > li > p{
     font-size: 14px;
+    margin: 0;
 
 
 
